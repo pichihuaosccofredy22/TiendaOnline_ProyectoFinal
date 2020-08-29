@@ -57,9 +57,76 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							Registrarse
 						</a>
 					</div>
-					<!-- -->
+
+
+					<!--Programación directo para reloj el cual se muestra en pagina de bienvenidos -->
 				
-				
+					
+				<div class="bottom-header">
+					
+					<color=#000000><script language="JavaScript">  
+						function fecha(){ 
+						fecha = new Date() 
+						mes = fecha.getMonth() 
+						diaMes = fecha.getDate() 
+						diaSemana = fecha.getDay() 
+						anio = fecha.getFullYear() 
+						dias = new Array('Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado') 
+						meses = new Array('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre')
+						document.write('<span id="fecha">') 
+						document.write (dias[diaSemana] + ", " + diaMes + " de " + meses[mes] + " de " + anio)
+						document.write ('</span>') 
+						} 
+						</script> 
+						<style type="text/css">  
+						<!-- 
+						#fecha { 
+							font-family: Tahoma, Verdana, Arial; 
+							font-size: 40px; 
+							color: rgb(0, 201, 33); 
+							background : none; 
+							border: orchid;
+							padding-top: 14em;
+						} 
+						--> 
+						</style>  
+						<script language="JavaScript">  
+						function hora(){ 
+						var fecha = new Date() 
+						var hora = fecha.getHours() 
+						var minuto = fecha.getMinutes() 
+						var segundo = fecha.getSeconds() 
+						if (hora < 10) {hora = "0" + hora} 
+						if (minuto < 10) {minuto = "0" + minuto} 
+						if (segundo < 10) {segundo = "0" + segundo} 
+						var horita = hora + ":" + minuto + ":" + segundo 
+						document.getElementById('hora').firstChild.nodeValue = horita 
+						tiempo = setTimeout('hora()',1000) 
+						} 
+						function inicio(){ 
+						document.write('<span id="hora">') 
+						document.write ('000000</span>') 
+						hora() 
+						} 
+						</script> 
+						<style type="text/css">  
+						<!-- 
+						#hora { 
+							width:100px; 
+							font-family: Tahoma, Verdana, Arial; 
+							font-size: 50px; 
+							color: rgb(255, 255, 255); 
+							background : none ;
+							padding-top: 14em;
+							} 
+						--> 
+						</style>    
+						<div align="center">  
+						<b><script>fecha()</script></b></div> 
+						<div align="center"> 
+						<b><script>inicio()</script></b></div></color>
+						
+						<!-- Hasta aqui programación de reloj -->
 
 
 
