@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="Andahuaylas tienda en linia">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/EstilosPagina1.css">
 	<title>TiendaOnline</title>
@@ -279,10 +279,11 @@
 			</div>
 		</div>
 	</nav>
-
 	<main class="contenedor">
 		<article></article>
 	</main>
+		
+
 	
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 	<script src="js/pagina1.js"></script>

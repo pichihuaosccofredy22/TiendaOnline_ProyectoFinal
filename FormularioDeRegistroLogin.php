@@ -12,8 +12,8 @@
     <title>TiendaOlineAndahuaylas</title>
 
 <link href="css/FormularioDeRegistroLogin.css" rel='stylesheet' type='text/css' />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="tienda en linia">
+<meta http-equiv="Content-Type" content="tienda en linia" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src="js/jquery-1.11.1.min.js"></script> 
     <!--Fuente de google apis -->
@@ -184,7 +184,6 @@ else{ alert('Operacion Cancelada');
 			
 						<!-- //login -->	
 	<div class="clearfix"> </div>	
-  <!-- /copy-right -->	
 <div class="copy-right w3ls">
 		<p> © FREDY PICHIHUA OSCCO  |ANDAHUAYLAS - 2020</p>
 	</div>

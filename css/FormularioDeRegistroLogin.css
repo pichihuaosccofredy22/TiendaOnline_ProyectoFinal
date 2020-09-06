@@ -371,7 +371,7 @@ a { text-decoration: none; }
   padding: 10px 0;
   box-sizing: border-box;
 }
-/*---------------*/
+
 .copy-right {
      text-align: center;
       margin: 13em 0 1em 0;
@@ -387,7 +387,7 @@ a { text-decoration: none; }
 .copy-right p a:hover {
 	text-decoration: underline;
 }
-/*--meadia quries start here--*/
+
 @media(max-width:1600px){
 	
 	
