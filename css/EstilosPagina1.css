@@ -14,7 +14,7 @@ a {
 	text-decoration: none;
 }
 
-.contenedor {
+/*.contenedor {
 	margin: auto;
 	width: 90%;
 	max-width: 1200px;
@@ -24,12 +24,12 @@ main article {
 	background: #fff;
 	margin: 20px 0;
 	padding: 20px;
-	height: 1000px;
-}
+	height: auto;
+}*/
 
 
 /*para logo*/
-.fredy{
+/*.fredy{
       position: absolute;
     right: 0;
     top: 0;
@@ -42,7 +42,7 @@ main article {
     max-width: 80px
     
     
-}
+}*/
 h1{
     /*background: #232F3E;*/
     color: #f70082;
@@ -57,7 +57,7 @@ h3{
 .menu {
 	background: #232F3E;
 	padding: 5px 0;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 .menu .contenedor-botones-menu {
